@@ -318,7 +318,7 @@ def _split_with_ffmpeg_frame_accurate(
             "-c:a",
             "aac",  # Re-encode audio
             "-preset",
-            "medium",  # Balance between speed and quality
+            "slow",  # Balance between speed and quality
             "-crf",
             "18",  # High quality
             "-avoid_negative_ts",
