@@ -14,7 +14,7 @@ A video analysis tool for detecting cuts by analyzing black bar changes in video
 pip install -e .
 
 # Or, with Nix:
-nix run github:CPlusPatch/tesseract -h
+nix run github:CPlusPatch/tesseract -- video.mp4
 ```
 
 ## Usage
